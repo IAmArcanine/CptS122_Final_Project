@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML_Test2", "SFML_Test2\SFML_Test2.vcxproj", "{9281626F-94EF-4F25-82C9-6DB71FF2652E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9281626F-94EF-4F25-82C9-6DB71FF2652E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9281626F-94EF-4F25-82C9-6DB71FF2652E}.Debug|Win32.Build.0 = Debug|Win32
+		{9281626F-94EF-4F25-82C9-6DB71FF2652E}.Release|Win32.ActiveCfg = Release|Win32
+		{9281626F-94EF-4F25-82C9-6DB71FF2652E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

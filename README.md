@@ -1,0 +1,4 @@
+SFMLScratch
+===========
+
+For learning SFML

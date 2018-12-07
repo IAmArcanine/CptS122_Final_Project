@@ -1,0 +1,47 @@
+Each square is 16x16 pixels. 
+
+MAP:
+
+		0   1   2   3   
+
+		4   5   6   7   
+
+		8   9   10  11 
+
+		12  13  14  15 
+
+		16  17  18  19 
+
+
+TileNum: TopLeft(X,Y) to BottomRight(X,Y) // TileName (discription)
+
+Row 1:
+Tile #1: 0,0 to 16,16 // Dirt curve (down <-> right)
+Tile #2: 16,0 to 32,16 // Top Dirt Path(left <-> right, grass is on the top)
+Tile #3: 32,0 to 48,16 // Dirt curve (down <-> left)
+Tile #4: 48,0 to 64,16 // Plain (solid green)
+
+Row 2:
+Tile #5: 0,16 to 16,32 // Left Dirt Path(down <-> up, grass is on the left)
+Tile #6: 16,16 to 32,32 // Dirt (Central dirt tile)
+Tile #7: 32,16 to 48,32 // Right Dirt Path(down <-> up, grass is on the right)
+Tile #8: 48,16 to 64,32 // Sparse Grass (solid green with foliage)
+
+Row 3:
+Tile #9:  0,32 to 16,48 // Dirt Curve (right <-> up)
+Tile #10: 16,32 to 32,48 // Bottom Dirt Path (left <-> right, grass is on the bottom)
+Tile #11: 32,32 to 48,48 // DirtCurve (left <-> up)
+Tile #12: 48,32 to 64,48 // Grass (solid green with thick foliage)
+
+Row 4:
+Tile #13:  0,48 to 16,64 // Dirt w/grass corner (grass at bottom right)
+Tile #14: 16,48 to 32,64 // Dirt w/grass corner (grass at bottom left)
+Tile #15: 32,48 to 48,64 // Water-1 (All four water tiles flow into each other)
+Tile #16: 48,48 to 64,64 // Water-2
+
+Row 5:
+Tile #17:  0,64 to 16,80 // Dirt w/grass corner (grass at top right)
+Tile #18: 16,64 to 32,80 // Dirt w/grass corner (grass at top left)
+Tile #19: 32,64 to 48,80 // Water-3 
+Tile #20: 48,64 to 64,80 // Water-4
+
